@@ -9,7 +9,7 @@ export default {
   name: "todolist",
   data() {
     return {
-      msg: "商品列表"
+      msg: "商品列表1"
     };
   },
   methods: {}
