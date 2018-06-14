@@ -4,7 +4,7 @@
 var express = require("express");
 var app = express();
 
-var appData = require("./data.json");
+var appData = require("../data.json");
 var seller = appData.seller;
 var goods = appData.goods;
 var ratings = appData.ratings;
@@ -34,5 +34,5 @@ apiRoutes.get("/ratings", function(req, res) {
 
 app.use("/api", apiRoutes);
 
-app.listen(8080);
+app.listen(9991);
 console.log("server run at  port :8080");
