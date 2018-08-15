@@ -10,7 +10,6 @@
 
 <script>
 export default {
-  name: "SecurityCode",
   // component properties
   props: {
     //props父元素传递过来 父-》子

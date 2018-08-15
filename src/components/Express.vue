@@ -13,7 +13,6 @@
 
 <script>
 export default {
-  name: "hello",
   data() {
     return {
       msg: "Welcome to Your Vue.js App",
@@ -46,7 +45,7 @@ export default {
   }
 };
 </script>
-<style scoped="scoped">
+<style >
 .el-form {
   padding: 0 20%;
   width: 30%;
